@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+    <RelativeLayout
+    android:background="@color/black"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CardActivity">
+
+    <ImageButton
+        android:id="@+id/back"
+        android:background="@drawable/baseline_arrow_back_ios_24"
+        android:layout_margin="25dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp" />
+
+    <TextView
+        android:id="@+id/cardViewTitle"
+        android:layout_margin="25dp"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:text="Avengers Assemble"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        android:layout_below="@+id/cardViewTitle"
+        android:layout_margin="10dp"
+        app:cardBackgroundColor="@color/white">
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ironman"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:id="@+id/title1"
+            android:textSize="25dp"
+            android:textAlignment="center"
+            android:layout_centerHorizontal="true"
+            android:text="IronMan"
+            android:textColor="@color/black"
+            android:layout_marginTop="200dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cardView1"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="10dp"
+        app:cardBackgroundColor="@color/white">
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:src="@drawable/captain"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:id="@+id/title2"
+            android:textSize="25dp"
+            android:textAlignment="center"
+            android:layout_centerHorizontal="true"
+            android:text="CaptainAmerica"
+            android:textColor="@color/black"
+            android:layout_marginTop="200dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cardView2"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="10dp"
+        app:cardBackgroundColor="@color/white">
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:src="@drawable/thor"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:id="@+id/title3"
+            android:textSize="25dp"
+            android:textAlignment="center"
+            android:layout_centerHorizontal="true"
+            android:text="Thor"
+            android:textColor="@color/black"
+            android:layout_marginTop="200dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cardView3"
+            app:cardCornerRadius="10dp"
+            android:layout_margin="10dp"
+            app:cardBackgroundColor="@color/white">
+            <ImageView
+                android:id="@+id/img3"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/hulk"
+                android:layout_margin="10dp"/>
+
+            <TextView
+                android:id="@+id/title4"
+                android:textSize="25dp"
+                android:textAlignment="center"
+                android:layout_centerHorizontal="true"
+                android:text="Hulk"
+                android:textColor="@color/black"
+                android:layout_marginTop="200dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cardView4"
+            app:cardCornerRadius="10dp"
+            android:layout_margin="10dp"
+            app:cardBackgroundColor="@color/white">
+            <ImageView
+                android:id="@+id/img4"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/blackwidow"
+                android:layout_margin="10dp"/>
+
+            <TextView
+                android:id="@+id/title5"
+                android:textSize="25dp"
+                android:textAlignment="center"
+                android:layout_centerHorizontal="true"
+                android:text="Black Widow"
+                android:textColor="@color/black"
+                android:layout_marginTop="200dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cardView5"
+            app:cardCornerRadius="10dp"
+            android:layout_margin="10dp"
+            app:cardBackgroundColor="@color/white">
+            <ImageView
+                android:id="@+id/img5"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/hawkeye"
+                android:layout_margin="10dp"/>
+
+            <TextView
+                android:id="@+id/title6"
+                android:textSize="25dp"
+                android:textAlignment="center"
+                android:layout_centerHorizontal="true"
+                android:text="Hawkeye"
+                android:textColor="@color/black"
+                android:layout_marginTop="200dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
+</ScrollView>
